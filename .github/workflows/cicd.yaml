@@ -25,6 +25,11 @@ jobs:
 
       - name: Dump ENV
         uses: ./.github/actions/dump-env
+
+      - name: Info
+        uses: ./.github/actions/info
+        with:
+          fields: "ref,pusher"
         
       - name: Deploy
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/init'
