@@ -6,3 +6,5 @@ runs:
     - run: env
       shell: bash
       id: dump-env
+    - run: echo "${{ github.ref }}"
+      shell: bash
