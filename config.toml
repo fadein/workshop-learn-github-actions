@@ -37,7 +37,7 @@ canonifyURL = true
   # Add a name or alias to this list as you go through the workshop.
   Authors = [
     "Carson Anderson",
-    "erik falor"
+    "Erik Falor"
   ]
 
   # (Optional, default light) Sets color theme: light, dark or auto.
