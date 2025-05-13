@@ -1,0 +1,3 @@
+name: 'Dump ENV Vars
+description: 'Dump the environment variables'
+run: env

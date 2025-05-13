@@ -17,6 +17,14 @@ jobs:
 
       - name: Build
         uses: ./.github/actions/build
+
+      - name: CLOC
+        uses: ./.github/actions/cloc
+        with:
+          path: public
+
+      - name: Dump ENV
+        uses: ./.github/actions/dump-env
         
       - name: Deploy
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/init'
